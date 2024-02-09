@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kiviz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kiviz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="gl-display">
+        <div class="primer">24 + 5</div>
+        <div class="variation">
+            <div class="var">18</div>
+            <div class="var">19</div>
+            <div class="var">22</div>
+            <div class="var">29</div>
+            <div class="var">120</div>
+        </div>
+    </div>
+    <div class="three">3</div>
+    <div class="two">2</div>
+    <div class="one">1</div>
+    <div class="start-display">
+        <form class="time-form">
+            <p>
+                <label class="txt-time" for="time">Время:</label> 
+                10<input type="range" step="10" min="10" max="50" value="20" id="time" name="time"/>50
+            </p>        
+        </form>
+        <p class="time">20</p>
+        <div class="btn-start">Начать</div>       
+        
+        <div class="txt-primechanie">* при делении числа округляются до целых *</div>
+    </div>
+    <script src = "kiviz.js"></script>
+    <script src = 'https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js'></script>
+</body>
+</html>
