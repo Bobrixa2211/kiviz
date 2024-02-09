@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primer{
+    font-size: 200px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gl-display{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin-top: 20%;
+
+}
+.variation{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.var{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(109, 109, 109);
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: rgb(202, 202, 202) 0px 0px 5px 3px;
+    transition-property: 
+transform;
+    transition-duration: .5s;
+    transform: scale(1);
+}
+.var:hover{
+    box-shadow: rgb(202, 202, 202) 0px 0px 5px 5px;
+    transition-property: 
+transform;
+    transition-duration: .5s;
+    transform: scale(1.1);
+}
+.start-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin-top: 20%;
+}
+.btn-start{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    border: 4px solid rgb(109, 109, 109);
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: rgb(202, 202, 202) 0px 0px 5px 3px;
+    transition-property: 
+transform;
+    transition-duration: .5s;
+    transform: scale(1);
+}
+.txt-primechanie{
+    margin-top: 20px;
+    font-size: 80px;
+    font-family: 'Caveat', cursive;
+    color: rgb(175, 170, 170);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.btn-start:hover{
+    box-shadow: rgb(202, 202, 202) 0px 0px 5px 5px;
+    transition-property: 
+transform;
+    transition-duration: .5s;
+    transform: scale(1.1);
+}
+.three,.two,.one{
+    margin-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    font-size: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.time-form{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+}
+
+input{
+    width: 150px;
+    height: 40px;   
+}
+.time{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
